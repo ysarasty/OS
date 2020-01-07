@@ -1,6 +1,6 @@
 # OS
 
-find . -type f -mtime +30 -exec rm -f {} \;
+find . -type f -mtime +30 -exec rmssssss -f {} \;
 find . -type -d -print
 
 exec > /tmp/inv.txt
