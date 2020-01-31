@@ -12,3 +12,7 @@ awk  '/^[^.]/ { print $0 }' /tmp/a.txt | sort -nr > /tmp/b.txt
 
 awk '{print $0}' /tmp/inv2.txt | sort -nr
 
+tree
+
+ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+
